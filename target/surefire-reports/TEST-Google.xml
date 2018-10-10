@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="Google" time="33.721" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="Google.java"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Akalanka\JbehaveSelenium"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\sashika1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="D:\App\maven-3.0.5-bin\apache-maven-3.0.5\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_181\bin;D:\App\jBoss-5.1.0.GA\bin;D:\App\maven-1.0.2\maven-1.0.2\bin;D:\App\maven-3.0.5-bin\apache-maven-3.0.5\bin;D:\App\java\jdk1.6.0_21\bin;C:\Program Files\nodejs\;C:\Users\sashika1\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\sashika1\AppData\Local\Programs\Python\Python37-32\;C:\Program Files\Docker Toolbox;C:\Users\sashika1\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\sashika1\AppData\Roaming\npm;C:\Users\sashika1\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\sashika1"/>
+    <property name="user.timezone" value="GMT+05:30"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="sashika1"/>
+    <property name="java.class.path" value="D:\App\maven-3.0.5-bin\apache-maven-3.0.5\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install test -Dtest=Google.java -Dstory=yahoo.story,google.story"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="story" value="yahoo.story,google.story"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\App\maven-3.0.5-bin\apache-maven-3.0.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Google" name="run" time="33.635">
+    <error message="Failures in running stories: ReportsCount[stories=3,storiesNotAllowed=0,storiesPending=0,scenarios=2,scenariosFailed=1,scenariosNotAllowed=0,scenariosPending=0,stepsFailed=1]" type="org.jbehave.core.embedder.Embedder$RunningStoriesFailed">org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: ReportsCount[stories=3,storiesNotAllowed=0,storiesPending=0,scenarios=2,scenariosFailed=1,scenariosNotAllowed=0,scenariosPending=0,stepsFailed=1]
+	at org.jbehave.core.embedder.Embedder$ThrowingRunningStoriesFailed.handleFailures(Embedder.java:566)
+	at org.jbehave.core.embedder.Embedder.handleFailures(Embedder.java:281)
+	at org.jbehave.core.embedder.Embedder.generateReportsView(Embedder.java:268)
+	at org.jbehave.core.embedder.Embedder.generateReportsView(Embedder.java:249)
+	at org.jbehave.core.embedder.Embedder.runStoriesAsPaths(Embedder.java:223)
+	at org.jbehave.core.junit.JUnitStories.run(JUnitStories.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</error>
+    <system-out>Processing system properties {}
+Using controls EmbedderControls[batch=false,skip=false,generateViewAfterStories=true,ignoreFailureInStories=false,ignoreFailureInView=false,verboseFailures=false,verboseFiltering=false,storyTimeouts=300,threads=1,failOnStoryTimeout=false]
+
+(BeforeStories)
+
+Running story yahoo.story
+Sample story
+(yahoo.story)
+Narrative:
+In order to communicate effectively to the business some functionality
+As a development team
+I want to use Behaviour-Driven Development
+Scenario: Perform a search in yahoo
+Examples:
+Given I navigate to &lt;url&gt; with the &lt;body&gt;
+When I perform a search for &lt;word&gt; in the &lt;body&gt;
+Then I click &lt;search&gt; Button
+Then A link Welcome to Facebook - Log In, Sign Up or Learn More exists in the results
+
+|url|body|word|search|
+|https://www.yahoo.com/|uh-search-box|facebook|Search Web|
+
+Example: {url=https://www.yahoo.com/, body=uh-search-box, word=facebook, search=Search Web}
+Using timeout for story yahoo.story of 300 secs.
+Given I navigate to https://www.yahoo.com/ with the uh-search-box
+When I perform a search for facebook in the uh-search-box
+Then I click Search Web Button (FAILED)
+(org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@aria-label=&apos;Search Web&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;INTERN-SASHIKA&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 10308, moz:profile: C:\Users\sashika1\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 1940e513-4dd5-4214-b728-8f6e5e36282a
+*** Element info: {Using=xpath, value=//input[@aria-label=&apos;Search Web&apos;]})
+Then A link Welcome to Facebook - Log In, Sign Up or Learn More exists in the results (NOT PERFORMED)
+
+
+
+Running story google.story
+Using timeout for story google.story of 300 secs.
+Sample story
+(google.story)
+Narrative:
+In order to communicate effectively to the business some functionality
+As a development team
+I want to use Behaviour-Driven Development
+Scenario: Perform a search in Google
+Examples:
+Given I navigate to &lt;url&gt; with the &lt;body&gt;
+When I perform a search for &lt;word&gt; in the &lt;body&gt;
+Then I click &lt;search&gt; Button
+Then A link Welcome to Facebook - Log In, Sign Up or Learn More exists in the results
+
+|url|body|word|search|
+|https://www.google.lk/|lst-ib|facebook|Google Search|
+
+Example: {url=https://www.google.lk/, body=lst-ib, word=facebook, search=Google Search}
+Given I navigate to https://www.google.lk/ with the lst-ib
+When I perform a search for facebook in the lst-ib
+Then I click Google Search Button
+Then A link Welcome to Facebook - Log In, Sign Up or Learn More exists in the results
+
+
+
+
+(AfterStories)
+
+Generating reports view to &apos;D:\Akalanka\JbehaveSelenium\target\jbehave&apos; using formats &apos;[console, txt, html, stats]&apos; and view properties &apos;{navigator=ftl/jbehave-navigator.ftl, views=ftl/jbehave-views.ftl, reports=ftl/jbehave-reports.ftl, nonDecorated=ftl/jbehave-report-non-decorated.ftl, decorated=ftl/jbehave-report-decorated.ftl, maps=ftl/jbehave-maps.ftl}&apos;
+Reports view generated with 3 stories (of which 0 pending) containing 2 scenarios (of which 0 pending)
+</system-out>
+    <system-err>1539169533098	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\sashika1\\AppData\\Local\\Temp\\rust_mozprofile.Imhlhk9AJfpc&quot;
+1539169539908	Marionette	INFO	Listening on port 51225
+1539169540328	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539169545513	Marionette	DEBUG	[6442450945] Frame script loaded
+1539169545519	Marionette	DEBUG	[6442450945] Frame script registered
+Oct 10, 2018 4:35:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1539169545941	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1539169547170	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+1539169550034	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.yahoo.com/
+1539169560094	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451059
+1539169560206	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.yahoo.com/
+1539169560745	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.yahoo.com/
+1539169561024	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.yahoo.com/
+1539169561043	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.yahoo.com/
+1539169561231	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.google.lk/
+1539169561259	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450949
+1539169561260	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450995
+1539169561262	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451042
+1539169561263	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451057
+1539169561271	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450997
+1539169561272	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450980
+1539169561273	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450971
+1539169561273	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450972
+1539169561274	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450973
+1539169561274	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450974
+1539169561275	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450975
+1539169561276	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450976
+1539169561277	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450977
+1539169561283	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450978
+1539169561285	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450979
+1539169561287	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450967
+1539169561288	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450962
+1539169561290	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450959
+1539169561291	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451026
+1539169561292	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450954
+1539169561294	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450952
+1539169561294	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450999
+1539169561294	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451046
+1539169561295	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451061
+1539169561295	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451002
+1539169561299	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450991
+1539169561300	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451014
+1539169561300	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451015
+1539169561301	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451016
+1539169561301	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451017
+1539169561301	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451018
+1539169561302	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451019
+1539169561302	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451020
+1539169561302	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451021
+1539169561302	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451022
+1539169561302	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451023
+1539169561303	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451024
+1539169561303	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450968
+1539169561303	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450964
+1539169561303	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450960
+1539169561304	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442451012
+1539169561304	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450953
+1539169561304	Marionette	DEBUG	[6442450945] Received observer notification outer-window-destroyed for 6442450951
+1539169562392	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.google.lk/
+1539169562563	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for https://www.google.lk/
+1539169562669	Marionette	DEBUG	[6442450945] Received DOM event pagehide for https://www.google.lk/
+1539169562671	Marionette	DEBUG	[6442450945] Received DOM event unload for https://www.google.lk/
+1539169563113	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for https://www.google.lk/search?source=hp&amp;ei=K929W_quJY6GyAOTz4mYDg&amp;q=facebook&amp;oq=facebook&amp;gs_l=psy-ab.12...826.847.0.888.8.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..8.0.0....0.hW7dSwMLRks
+1539169563854	Marionette	DEBUG	[6442450945] Received DOM event pageshow for https://www.google.lk/search?source=hp&amp;ei=K929W_quJY6GyAOTz4mYDg&amp;q=facebook&amp;oq=facebook&amp;gs_l=psy-ab.12...826.847.0.888.8.1.0.0.0.0.0.0..0.0....0...1.1.64.psy-ab..8.0.0....0.hW7dSwMLRks
+</system-err>
+  </testcase>
+</testsuite>

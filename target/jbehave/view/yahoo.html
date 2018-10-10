@@ -1,0 +1,74 @@
+<html>
+<head>
+<title>yahoo</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+<div class="story">
+<h1>Sample story</h1>
+<div class="path">yahoo.story</div>
+<div class="narrative"><h2>Narrative:</h2>
+<div class="element inOrderTo"><span class="keyword inOrderTo">In order to</span> communicate effectively to the business some functionality</div>
+<div class="element asA"><span class="keyword asA">As a</span> development team</div>
+<div class="element iWantTo"><span class="keyword iWantTo">I want to</span> use Behaviour-Driven Development</div>
+</div>
+<div class="scenario">
+<h2>Scenario: Perform a search in yahoo</h2>
+<div class="examples">
+<h3>Examples:</h3>
+<div class="step">Given I navigate to &lt;url&gt; with the &lt;body&gt;</div>
+<div class="step">When I perform a search for &lt;word&gt; in the &lt;body&gt;</div>
+<div class="step">Then I click &lt;search&gt; Button</div>
+<div class="step">Then A link Welcome to Facebook - Log In, Sign Up or Learn More exists in the results</div>
+<table>
+<thead>
+<tr>
+<th>url</th><th>body</th><th>word</th><th>search</th></tr>
+</thead>
+<tbody>
+<tr>
+<td>https://www.yahoo.com/</td><td>uh-search-box</td><td>facebook</td><td>Search Web</td></tr>
+</tbody>
+</table>
+
+<h3 class="example">Example: {url=https://www.yahoo.com/, body=uh-search-box, word=facebook, search=Search Web}</h3>
+<div class="step successful">Given I navigate to <span class="step parameter">https://www.yahoo.com/</span> with the <span class="step parameter">uh-search-box</span></div>
+<div class="step successful">When I perform a search for <span class="step parameter">facebook</span> in the <span class="step parameter">uh-search-box</span></div>
+<div class="step failed">Then I click <span class="step parameter">Search Web</span> Button <span class="keyword failed">(FAILED)</span><br/><span class="message failed">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@aria-label='Search Web']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'INTERN-SASHIKA', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 10308, moz:profile: C:\Users\sashika1\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 1940e513-4dd5-4214-b728-8f6e5e36282a
+*** Element info: {Using=xpath, value=//input[@aria-label='Search Web']}</span></div>
+<div class="step notPerformed">Then A link <span class="step parameter">Welcome to Facebook - Log In, Sign Up or Learn More</span> exists in the results <span class="keyword notPerformed">(NOT PERFORMED)</span></div>
+</div>
+</div>
+</div>
+
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>
