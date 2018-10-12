@@ -8,35 +8,23 @@
 <body>
  
 <script type="syntaxhighlighter" class="brush: txt"><![CDATA[
-Sample story
+!--Create by : Akalanka Jayalath --!
+!--Created on: 09/10/2018--!
+!--Summary : peforming yahoo search for facebook story --!
 (yahoo.story)
-Narrative:
-In order to communicate effectively to the business some functionality
-As a development team
-I want to use Behaviour-Driven Development
 Scenario: Perform a search in yahoo
 Examples:
-Given I navigate to <url> with the <body>
-When I perform a search for <word> in the <body>
-Then I click <search> Button
-Then A link Welcome to Facebook - Log In, Sign Up or Learn More exists in the results
+Given I navigate to <url> with the <search>
+When I perform a search for <word> in the <search>
+Then A link Facebook - Log In or Sign Up exists in the results
 
-|url|body|word|search|
-|https://www.yahoo.com/|uh-search-box|facebook|Search Web|
+|url|search|word|
+|https://www.yahoo.com/|uh-search-box|facebook|
 
-Example: {url=https://www.yahoo.com/, body=uh-search-box, word=facebook, search=Search Web}
+Example: {url=https://www.yahoo.com/, search=uh-search-box, word=facebook}
 Given I navigate to https://www.yahoo.com/ with the uh-search-box
 When I perform a search for facebook in the uh-search-box
-Then I click Search Web Button (FAILED)
-(org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@aria-label='Search Web']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'INTERN-SASHIKA', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 10308, moz:profile: C:\Users\sashika1\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 1940e513-4dd5-4214-b728-8f6e5e36282a
-*** Element info: {Using=xpath, value=//input[@aria-label='Search Web']})
-Then A link Welcome to Facebook - Log In, Sign Up or Learn More exists in the results (NOT PERFORMED)
+Then A link Facebook - Log In or Sign Up exists in the results
 
 
 

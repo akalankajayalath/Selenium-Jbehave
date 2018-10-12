@@ -1,14 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: Google
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 33.721 sec <<< FAILURE!
-run(Google)  Time elapsed: 33.635 sec  <<< ERROR!
-org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: ReportsCount[stories=3,storiesNotAllowed=0,storiesPending=0,scenarios=2,scenariosFailed=1,scenariosNotAllowed=0,scenariosPending=0,stepsFailed=1]
-	at org.jbehave.core.embedder.Embedder$ThrowingRunningStoriesFailed.handleFailures(Embedder.java:566)
-	at org.jbehave.core.embedder.Embedder.handleFailures(Embedder.java:281)
-	at org.jbehave.core.embedder.Embedder.generateReportsView(Embedder.java:268)
-	at org.jbehave.core.embedder.Embedder.generateReportsView(Embedder.java:249)
-	at org.jbehave.core.embedder.Embedder.runStoriesAsPaths(Embedder.java:223)
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.701 sec <<< FAILURE!
+run(Google)  Time elapsed: 8.632 sec  <<< ERROR!
+java.lang.RuntimeException: Please specify which stories to run
+	at Google.storyPaths(Google.java:48)
 	at org.jbehave.core.junit.JUnitStories.run(JUnitStories.java:20)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)

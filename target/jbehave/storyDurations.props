@@ -1,7 +1,7 @@
 #org.jbehave.core.embedder.StoryManager
-#Wed Oct 10 16:36:04 GMT+05:30 2018
-yahoo.story=14000
-google.story=3000
+#Fri Oct 12 09:59:23 GMT+05:30 2018
+yahoo.story=34000
+google.story=22000
 threads=1
-total=17000
-threadAverage=17000
+total=56000
+threadAverage=56000
